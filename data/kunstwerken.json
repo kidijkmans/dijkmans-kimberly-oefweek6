@@ -1,0 +1,116 @@
+{
+    "kunstwerken":
+    [
+        {
+            "titel": "2. DEZ. 1976",
+            "id": 10,
+            "datering": "1976",
+            "uitvoerder": "On Kawara",
+            "land": "Japan",
+            "categorieen": ["letters"],
+            "materiaal": "doek",
+            "afmetingen": "25,3 x 33",
+            "beschrijving": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio tortor, aliquet sit amet metus vitae, dignissim congue dui. Morbi sit amet malesuada lorem, vulputate rhoncus sem. Sed id elementum massa, nec sollicitudin ipsum.",
+            "afbeelding": "kawara-11958dig-l.jpg"
+        },{
+            "titel": "Graatbloemen",
+            "id": 9,
+            "datering": "1928",
+            "uitvoerder": "Max Ernst",
+            "land": "Duitsland",
+            "categorieen": ["bloemen"],
+            "materiaal": "doek",
+            "afmetingen": "65 x 81",
+            "beschrijving": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio tortor, aliquet sit amet metus vitae, dignissim congue dui. Morbi sit amet malesuada lorem, vulputate rhoncus sem. Sed id elementum massa, nec sollicitudin ipsum.",
+            "afbeelding": "ernst-6614dig-l.jpg"
+        },{
+            "titel": "De krab",
+            "id": 8,
+            "datering": "1926",
+            "uitvoerder": "Max Ernst",
+            "land": "Duitsland",
+            "categorieen": ["dieren", "natuur"],
+            "materiaal": "doek",
+            "afmetingen": "81 x 100",
+            "beschrijving": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio tortor, aliquet sit amet metus vitae, dignissim congue dui. Morbi sit amet malesuada lorem, vulputate rhoncus sem. Sed id elementum massa, nec sollicitudin ipsum.",
+            "afbeelding": "ernst-11168dig-l.jpg"
+        },{
+            "titel": "Zelfportret",
+            "id": 7,
+            "datering": "1972",
+            "uitvoerder": "Etienne Elias",
+            "land": "België",
+            "categorieen": ["portret"],
+            "materiaal": "masonite",
+            "afmetingen": "780 x 580",
+            "beschrijving": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio tortor, aliquet sit amet metus vitae, dignissim congue dui. Morbi sit amet malesuada lorem, vulputate rhoncus sem. Sed id elementum massa, nec sollicitudin ipsum.",
+            "afbeelding": "elias-8242dig-l.jpg"
+        },{
+            "titel": "De veerpont",
+            "id": 6,
+            "datering": "1647",
+            "uitvoerder": "Salomon Jacobsz. van Ruysdael",
+            "land": "Nederland",
+            "categorieen": ["nacht", "natuur"],
+            "materiaal": "doek",
+            "afmetingen": "91 x 130,5",
+            "beschrijving": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio tortor, aliquet sit amet metus vitae, dignissim congue dui. Morbi sit amet malesuada lorem, vulputate rhoncus sem. Sed id elementum massa, nec sollicitudin ipsum.",
+            "afbeelding": "vanruysdael-2822-l.jpg"
+        },{
+            "titel": "De pauwen",
+            "id": 5,
+            "datering": "1896",
+            "uitvoerder": "William Degouve de Nuncques",
+            "land": "België",
+            "categorieen": ["nacht"],
+            "materiaal": "doek",
+            "afmetingen": "595 x 990",
+            "beschrijving": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio tortor, aliquet sit amet metus vitae, dignissim congue dui. Morbi sit amet malesuada lorem, vulputate rhoncus sem. Sed id elementum massa, nec sollicitudin ipsum.",
+            "afbeelding": "degouvedenuncques-9397dig-l.jpg"
+        },{
+            "titel": "Vrede",
+            "id": 4,
+            "datering": "1954",
+            "uitvoerder": "Jo Delahaut",
+            "land": "België",
+            "categorieen": ["abstract"],
+            "materiaal": "doek",
+            "afmetingen": "60 x 184",
+            "beschrijving": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio tortor, aliquet sit amet metus vitae, dignissim congue dui. Morbi sit amet malesuada lorem, vulputate rhoncus sem. Sed id elementum massa, nec sollicitudin ipsum.",
+            "afbeelding": "delahaut-8265dig-l.jpg"
+        },{
+            "titel": "De Seine bij de Grande-Jatte",
+            "id": 3,
+            "datering": "1888",
+            "uitvoerder": "Georges Seurat",
+            "land": "België",
+            "categorieen": ["natuur"],
+            "materiaal": "doek",
+            "afmetingen": "65 x 82",
+            "beschrijving": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio tortor, aliquet sit amet metus vitae, dignissim congue dui. Morbi sit amet malesuada lorem, vulputate rhoncus sem. Sed id elementum massa, nec sollicitudin ipsum.",
+            "afbeelding": "seurat-5091dig-l.jpg"
+        },{
+            "titel": "Stilleven met bloemen in een vaas",
+            "id": 2,
+            "datering": "1704",
+            "uitvoerder": "Rachel Ruysch",
+            "land": "Nederland",
+            "categorieen": ["bloemen"],
+            "materiaal": "doek",
+            "afmetingen": "92 x 70",
+            "beschrijving": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio tortor, aliquet sit amet metus vitae, dignissim congue dui. Morbi sit amet malesuada lorem, vulputate rhoncus sem. Sed id elementum massa, nec sollicitudin ipsum.",
+            "afbeelding": "ruysch-2751dig-l.jpg"
+        },{
+            "titel": "Zondagnamiddag",
+            "id": 1,
+            "datering": "1914",
+            "uitvoerder": "Gustave van de Woestyne",
+            "land": "België",
+            "categorieen": ["dagelijkse leven"],
+            "materiaal": "doek",
+            "afmetingen": "93 x 142",
+            "beschrijving": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque odio tortor, aliquet sit amet metus vitae, dignissim congue dui. Morbi sit amet malesuada lorem, vulputate rhoncus sem. Sed id elementum massa, nec sollicitudin ipsum.",
+            "afbeelding": "vandewoestyne-4153-l.jpg"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+<% include header %>
+
+
+<section class="overzicht">
+
+<h3><a href="/">&#x279C;</a></h3>
+
+<h4>Kunstwerken voor zoekterm <span><%- zoekterm %></span></h4>
+
+  <% for (i = 0; i < items.length; i++) { %>
+    <% if ( items[i].titel.toLowerCase().indexOf(zoekterm.toLowerCase()) >= 0 || items[i].datering.toLowerCase().indexOf(zoekterm.toLowerCase()) >= 0 || items[i].uitvoerder.toLowerCase().indexOf(zoekterm.toLowerCase()) >= 0 || items[i].land.toLowerCase().indexOf(zoekterm.toLowerCase()) >= 0 || items[i].materiaal.toLowerCase().indexOf(zoekterm.toLowerCase()) >= 0 || items[i].afmetingen.toLowerCase().indexOf(zoekterm.toLowerCase()) >= 0 || items[i].beschrijving.toLowerCase().indexOf(zoekterm.toLowerCase()) >= 0 ) { %>
+
+      <figure>
+          <a href=/items/<%- items[i].id %>><img src="/img/<%- items[i].afbeelding %>" alt="<%- items[i].titel %>"></a>
+          <div class="textbox">
+            <h2><a href=/items/<%- items[i].id %>><%- items[i].titel %></a></h2>
+            <p><%- items[i].datering %></p>
+            <p><%- items[i].land %></p>
+          </div>
+      </figure>
+
+    <% } %>
+  <% } %>
+
+</section>
+
+
+<% include footer %>

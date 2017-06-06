@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Museumtoepassing</title>
+		<link rel="stylesheet" type="text/css" href="/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="/css/styles.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+
+		<h1><a href="/">Museumcollectie</a></h1>
+
+		<header>
+
+				<form method="post" role="form">
+				  <input type="text" class="form-control" id="zoekterm" name="zoekterm">
+				  <input type="submit" value="zoek" class="btn btn-primary">
+				</form>
+
+				<div class="button-group">
+					<button data-label="categorieen">Categorieën <span>+</span></button>
+					<button data-label="kunstenaars">Kunstenaars <span>+</span></button>
+				</div>
+
+				<div class="filter categorieen">
+					<% for (var i = 0; i < categorieen.length; i++) { %>
+						<a href="/categorieen/<%- categorieen[i] %>"><%- categorieen[i] %></a>
+					<% } %>
+				</div>
+
+				<div class="filter kunstenaars">
+					<% for (var i = 0; i < kunstenaars.length; i++) { %>
+						<a href="/kunstenaars/<%- kunstenaars[i] %>"><%- kunstenaars[i] %></a>
+					<% } %>
+				</div>
+
+		</header>

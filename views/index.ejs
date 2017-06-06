@@ -1,0 +1,18 @@
+<% include header %>
+
+<section class="overzicht">
+  <% kunstwerken.forEach(function(item){ %>
+
+    <figure>
+        <a href=/items/<%- item.id %>><img src="/img/<%- item.afbeelding %>" alt="<%- item.titel %>"></a>
+        <div class="textbox">
+          <h2><a href=/items/<%- item.id %>><%- item.titel %></a></h2>
+          <p><%- item.datering %></p>
+          <p><%- item.land %></p>
+        </div>
+    </figure>
+
+  <% }); %>
+</section>
+
+<% include footer %>

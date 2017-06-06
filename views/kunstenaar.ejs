@@ -1,0 +1,26 @@
+<% include header %>
+
+<section class="overzicht">
+
+<h3><a href="/">&#x279C;</a></h3>
+
+<h4>Kunstwerken voor kunstenaar <span><%- id %></span></h4>
+
+  <% for (i = 0; i < items.length; i++) { %>
+    <% if (items[i].uitvoerder.indexOf(id) !== -1) { %>
+
+      <figure>
+          <a href=/items/<%- items[i].id %>><img src="/img/<%- items[i].afbeelding %>" alt="<%- items[i].titel %>"></a>
+          <div class="textbox">
+            <h2><a href=/items/<%- items[i].id %>><%- items[i].titel %></a></h2>
+            <p><%- items[i].datering %></p>
+            <p><%- items[i].land %></p>
+          </div>
+      </figure>
+
+    <% } %>
+  <% } %>
+
+</section>
+
+<% include footer %>

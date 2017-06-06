@@ -1,0 +1,56 @@
+<% include header %>
+
+<h3><a href="/">&#x279C;</a></h3>
+
+<section class="kunstwerk">
+
+  <figure>
+
+    <h2><%- item.titel %></h2>
+
+    <div class="info">
+      <a href="/kunstenaars/<%- item.uitvoerder %>"><%- item.uitvoerder %></a>
+      <p><%- item.datering %> | <%- item.land %></p>
+      <div class="clear"></div>
+    </div>
+
+    <img src="/img/<%- item.afbeelding %>" alt="<%- item.titel %>">
+
+    <p>Materiaal: <%- item.materiaal %></p>
+    <p>Afmetingen: <%- item.afmetingen %></p>
+
+    <hr>
+
+    <p class="beschrijving"><%- item.beschrijving %></p>
+
+
+    <!-- REACTIEMOGELIJKHEID MET DISQUS -->
+
+    <div id="disqus_thread"></div>
+
+    <script>
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://dijkmans-kimberly-oefweek6-herokuapp-com.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    <!-- EINDE REACTIEMOGELIJKHEID MET DISQUS -->
+
+
+  </figure>
+
+  <p class="categorieen">Gepost in categorieën:
+    <% for (i = 0; i < item.categorieen.length; i++) { %>
+      <a href="/categorieen/<%- item.categorieen[i] %>"><%- item.categorieen[i] %></a><% if (i+1< item.categorieen.length){ %>, <% } %>
+    <% } %>
+  </p>
+
+
+</section>
+
+
+<% include footer %>
