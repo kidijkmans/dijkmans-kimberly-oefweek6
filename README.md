@@ -6,7 +6,7 @@ This web app built with Node and Express, displays a museum collection and has s
 
 Link to Heroku app: [here](http://dijkmans-kimberly-oefweek6.herokuapp.com)
 
-<img src="https://github.com/kidijkmans/museum-collection-app/blob/master/preview.png" width="500">
+<img src="https://github.com/kidijkmans/museum-collection-app/blob/master/preview.png" width="650">
 
 ## Getting started
 
@@ -34,4 +34,4 @@ npm start
 # open index.js and modify the port if needed
 ```
 
-6. View the app running locally at [localhost:8000](localhost:8000)
+6. View the app running locally at *localhost:8000*
