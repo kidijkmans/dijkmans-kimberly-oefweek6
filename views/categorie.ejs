@@ -1,10 +1,12 @@
-<% include header %>
+<%- include('header'); %>
 
 <section class="overzicht">
 
+  <h1>Title test</h1>
+
 <h3><a href="/">&#x279C;</a></h3>
 
-<h4>Kunstwerken voor categorie <span><%- id %></span></h4>
+<h4>Kunstwerken voor categorie <span><%= id %></span></h4>
 
   <% for (i = 0; i < items.length; i++) { %>
     <% if (items[i].categorieen.indexOf(id) !== -1) { %>
@@ -23,4 +25,4 @@
 
 </section>
 
-<% include footer %>
+<%- include('footer'); %>
