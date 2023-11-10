@@ -1,12 +1,10 @@
 # Museum collection app
 
-This web app built with Node and Express, displays a museum collection and has search and filter options. It was created as part of the 'Bachelor in Graphical and Digital Media: Cross-media Design' course at AP University in June 2017.
+This web app built with Node and Express, displays a museum collection and has search and filter options.
 
 ## Preview
 
-Link to Heroku app: [here](http://dijkmans-kimberly-oefweek6.herokuapp.com)
-
-<img src="https://github.com/kidijkmans/museum-collection-app/blob/master/preview.png" width="650">
+<img src="https://github.com/kimberly-0/museum-collection-app/blob/master/preview.png" width="650">
 
 ## Getting started
 
@@ -17,7 +15,7 @@ Link to Heroku app: [here](http://dijkmans-kimberly-oefweek6.herokuapp.com)
 3. Clone the repository
 
 ``` 
-git clone https://github.com/kidijkmans/museum-collection-app.git
+git clone https://github.com/kimberly-0/museum-collection-app.git
 cd museum-collection-app
 ```
 
